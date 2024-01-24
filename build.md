@@ -1,7 +1,9 @@
 
 参考 `deploy.sh`:
 ```shell
-# 添加依赖组件
+# 运行环境
+gem install bundler
+bundle update
 bundle add jekyll
 # 运行
 bundle exec jekyll serve --config _config.yml
